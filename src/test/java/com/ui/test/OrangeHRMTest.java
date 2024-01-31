@@ -24,7 +24,7 @@ public class OrangeHRMTest extends Base {
 		Thread.sleep(2000);
 	}
 
-	@Test (enabled = false)
+	@Test 
 	public void forgotPasswordTest() {
 		logger.info("Forgot Password Test started");
 		try {
@@ -60,7 +60,7 @@ public class OrangeHRMTest extends Base {
 		}
 	}
 
-	@Test (enabled = false)
+	@Test 
 	public void login() {
 		logger.info("Login Test started");
 		try {
